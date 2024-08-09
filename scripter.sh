@@ -1,11 +1,11 @@
 #!/bin/bash
-
+# Shamelessly stolen from https://linuxconfig.org/bash-script-yes-no-prompt-example
 while true; do
 
 read -p "Do you want to proceed? (y/n) " yn
 
 case $yn in 
-	[yY] ) echo ok, we will proceed;
+	[yY] ) echo ok ;
 		break;;
 	[nN] ) echo exiting...;
 		exit;;
