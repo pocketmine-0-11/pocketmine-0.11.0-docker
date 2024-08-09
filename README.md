@@ -2,14 +2,14 @@
 
 To run:
 
-first build the docker image
+First build the docker image
 
 ```
 git clone https://github.com/pocketmine-0.11/pocketmine-0.11.0-docker.git
 cd pocketmine-0.11.0-docker
 docker build .
 ```
-Before running, create/move to a empty folder where you want your worlds and plugins in, and create a `worlds` and `plugins` directory, using exact wording.
+Before running, take note of the SHA hash that the `docker build` spits out at the end, create/move to a empty folder where you want your worlds and plugins in, and create a `worlds` and `plugins` directory, using exact wording.
 ```
 mkdir PMMP
 cd PMMP
