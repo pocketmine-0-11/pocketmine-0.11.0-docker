@@ -5,7 +5,7 @@ To run:
 First build the docker image
 
 ```
-git clone https://github.com/pocketmine-0.11/pocketmine-0.11.0-docker.git
+git clone https://github.com/pocketmine-0-11/pocketmine-0.11.0-docker.git
 cd pocketmine-0.11.0-docker
 docker build .
 ```
